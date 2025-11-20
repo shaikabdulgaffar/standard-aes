@@ -552,7 +552,7 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print('Usage: ./aes.py encrypt "key" "message"')
         print('Running tests...')
-        from standard_tests import run
+        from std_tests import run
         run()
     elif len(sys.argv) == 2 and sys.argv[1] == 'benchmark':
         benchmark()
